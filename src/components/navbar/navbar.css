@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 7px;
+    overflow: hidden;
+    background-color: #6e798f;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    border-bottom: 1px solid white;
+  }
+  
+  .active{
+    background-color: palevioletred;
+    border-radius: 35px;
+}
+
+.logout{
+  background-color: palevioletred;
+  border-radius: 16px;
+  position: absolute;
+  width: 59px;
+  padding: 8px;
+  color: white  ;
+  /* right: 4px; */
+  font-weight: 700;
+  margin: -48px 83rem;
+  font-size: 14px;
+}

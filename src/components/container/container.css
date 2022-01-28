@@ -1,0 +1,62 @@
+.box {
+  width: 50%;
+  background-color: white;
+  margin: -317px 29rem;
+  height: 100vh;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head > h2 {
+  margin-left: 30px;
+}
+
+.head > span {
+  margin-right: 41px;
+}
+
+.content {
+  border: 1px solid lightgrey;
+  width: 89%;
+  margin-top: 25px;
+  margin-left: 34px;
+}
+
+.red >p {
+  color: red;
+  width: 83%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.content > div > p {
+  margin-left: 10px;
+  color: grey;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.tail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.tail > p {
+  margin-top: 4px;
+  color: grey;
+}
+
+.tail > button {
+  /* margin-right: 10px; */
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 9px;
+}
