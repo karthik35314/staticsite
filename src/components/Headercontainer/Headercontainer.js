@@ -17,7 +17,7 @@ const Headercontainer = () => {
 
           <div>
             {" "}
-            <p className="strong-one">Victoria Garcia</p>{" "}
+            <p className="strong-one">karthik </p>{" "}
           </div>
         </div>
 
